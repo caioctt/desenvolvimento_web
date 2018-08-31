@@ -1,0 +1,207 @@
+/*
+*
+*	@author Caio Tavares
+*	@version 0.1
+*/
+
+/*================= Layout ================*/
+html, body, .capa{
+	height: 100%
+}
+body{
+	background: url(imagens/capa.png),
+				url(imagens/ruido.png),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Circular,Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+/*___________Barra Navegação__________*/
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,60%);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 6px 90px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a {
+	color:white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover{
+	color: #1ed760;
+	background: none;
+}
+
+#barra{
+	padding: 0px 110px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+/*___________Capa__________*/
+
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+/*=========== botões ===============*/
+
+.btn-custom{
+	color:white;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+	padding: 13px 50px;
+	margin: 0px 7px;
+	transition: background 0.4s, color 0.4s;
+
+}
+.btn-roxo{
+	background: #7c25f8;
+}
+.btn-roxo:hover{
+	background: #6207e3;
+	color:white;
+}
+.btn-branco{
+	border:2px solid white;
+}
+.btn-branco:hover{
+	background: white;
+	color:black;
+}
+
+/*=========== Sessão serviços ===============*/
+
+#servicos{
+	background: white;
+	padding: 20px 20px;
+}
+
+.albuns{
+	padding: 10px 0px 10px 0px;
+}
+#servicos h2, #servicos h3{
+	color: #7c25f8;
+}
+
+
+/*=========== Sessão recursos ===============*/
+
+#recursos {
+	padding: 20px 20px;
+	color: white;
+}
+
+.rotacionar{
+	transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
+
+
+/*============== Devices ================*/
+#devices{
+	background: white;
+	padding: 150px 20px;
+}
+#navlist li{
+	display: inline;
+	text-transform: uppercase;
+	float: left;
+}
+
+#navlist2 li{
+	display: inline;
+	padding-right: 10px;
+	text-transform: uppercase;
+	float: left;
+}
+#navlist2 a{
+	color:green;
+	float: left;
+}
+
+
+/*============== Rodapé ================*/
+
+footer{
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+/*============== Tipografia ================*/
+h1{
+	font-size: 80px;
+	font-weight: 900;
+	letter-spacing: -3px;
+	margin-bottom: 40px;
+	padding-top: 55px;
+}
+
+h2{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3{
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#rodape h4{
+	color:#919496;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+#servicos p{
+	font-size: 18px;
+}
+#recursos p{
+
+}
+.btn-custom{
+	font-size: 14px;
+	letter-spacing: 1.5px;
+}
+.gray{
+	color: #dddddd;
+}
